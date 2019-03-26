@@ -1,0 +1,68 @@
+.grid-container{
+  display: grid;
+  grid-template-areas:
+  'logo'
+  'logo'
+  'logo'
+  'form'
+  'form'
+  'form'
+  'form';
+}
+#topnav{
+  grid-area: logo;
+  margin: auto;
+  text-align: center;
+  background-color: #167484;
+  width: 100%;
+  color: white;
+  height: 100%;
+  padding-bottom: 50px;
+}
+#topnav h1{
+  padding-top: 25px;
+}
+#loginForm{
+  grid-area: form;
+  display: block;
+  width: 85%;
+  margin: auto;
+}
+#loginForm input{
+  display: block;
+  margin: auto;
+  width: 85%;
+  margin-top: 25px;
+}
+#loginForm button{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  display: block;
+  background-color: #35353c;
+  color: white;
+  margin-top:25px;
+  border-radius: 22%;
+}
+#loginForm hr{
+  width: 25%;
+  border-color: #167484;
+  border-width: 5px;
+  border-radius: 2.5px;
+  margin-bottom: 15px;
+}
+#loginForm a{
+  margin: 25px, auto, 15px, auto;
+  text-align: center;
+  display: block;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+#Para{
+  margin-top: 25px;
+  font-size: 14px;
+  background-color: #E5ECED;
+  padding: 10px;
+  box-shadow: 5px;
+  text-align: center;
+}
