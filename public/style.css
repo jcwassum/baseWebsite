@@ -25,7 +25,7 @@
 #loginForm{
   grid-area: form;
   display: block;
-  width: 85%;
+  width: 100%;
   margin: auto;
 }
 #loginForm input{
@@ -65,4 +65,15 @@
   padding: 10px;
   box-shadow: 5px;
   text-align: center;
+}
+#success{
+  width: 100%;
+  color: white;
+  margin: auto;
+  background-color: dodgerblue;
+  border-top: solid 3px lightblue;
+  text-align: center;
+}
+#success p{
+  padding-top: 200px;
 }
